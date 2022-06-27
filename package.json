@@ -26,5 +26,8 @@
   "keywords": [
     "xero",
     "accounting"
-  ]
+  ],
+  "dependencies": {
+    "xero-node": "^4.21.0"
+  }
 }
