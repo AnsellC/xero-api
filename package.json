@@ -1,6 +1,6 @@
 {
     "name": "@ansellc/xero-api",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Xero API Wrapper",
     "types": "types/xero.d.ts",
     "exports": "./dist/xero.js",
