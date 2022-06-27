@@ -1,33 +1,33 @@
 {
-  "name": "@ansellc/xero-api",
-  "version": "0.0.1",
-  "description": "Xero API Wrapper",
-  "types": "types/xero.d.ts",
-  "exports": "./dist/xero.js",
-  "scripts": {
-    "build": "rimraf dist && rimraf types && tsc && esbuild src/xero.ts --bundle --minify --format=esm --legal-comments=none --platform=node --outfile=dist/xero.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ansellc/xero-api.git"
-  },
-  "author": "Ansell Cruz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ansellc/xero-api/issues"
-  },
-  "homepage": "https://github.com/ansellc/xero-api#readme",
-  "devDependencies": {
-    "@types/node": "^18.0.0",
-    "esbuild": "^0.14.47",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.7.4"
-  },
-  "keywords": [
-    "xero",
-    "accounting"
-  ],
-  "dependencies": {
-    "xero-node": "^4.21.0"
-  }
+    "name": "@ansellc/xero-api",
+    "version": "0.0.2",
+    "description": "Xero API Wrapper",
+    "types": "types/xero.d.ts",
+    "exports": "./dist/xero.js",
+    "scripts": {
+        "build": "rimraf dist && rimraf types && tsc && esbuild src/xero.ts --bundle --minify --format=esm --legal-comments=none --platform=node --outfile=dist/xero.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ansellc/xero-api.git"
+    },
+    "author": "Ansell Cruz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ansellc/xero-api/issues"
+    },
+    "homepage": "https://github.com/ansellc/xero-api#readme",
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "esbuild": "^0.14.47",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.7.4"
+    },
+    "keywords": [
+        "xero",
+        "accounting"
+    ],
+    "dependencies": {
+        "xero-node": "^4.21.0"
+    }
 }
