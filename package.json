@@ -1,11 +1,15 @@
 {
     "name": "@ansellc/xero-api",
-    "version": "0.0.3",
+    "version": "0.0.8",
     "description": "Xero API Wrapper",
     "types": "types/xero.d.ts",
     "exports": "./dist/xero.js",
+    "engines": {
+        "node": ">=12",
+        "npm": ">=6"
+    },
     "scripts": {
-        "build": "rimraf dist && rimraf types && tsc && esbuild src/xero.ts --bundle --minify --format=esm --legal-comments=none --platform=node --outfile=dist/xero.js"
+        "build": "rimraf dist && rimraf types && tsc && esbuild src/xero.ts --bundle --minify --legal-comments=none --platform=node --outfile=dist/xero.js"
     },
     "repository": {
         "type": "git",
